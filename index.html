@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>QueryPilot – AI-Powered SQL Assistant</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <div class="container header-container">
+      <div class="logo">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 2L19 21H5L12 2Z" />
+          <path d="M12 9v4" />
+          <circle cx="12" cy="17" r="1" />
+        </svg>
+        <span class="brand-name">QueryPilot</span>
+      </div>
+      <nav>
+        <a href="#features">Features</a>
+        <a href="#demo">Demo</a>
+        <a href="#signup">Get Started</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <h1>Navigate Your Data with AI-Powered SQL</h1>
+      <p>QueryPilot helps you ask natural language questions and get precise, optimized T-SQL queries—no coding required.</p>
+      <a href="#signup" class="btn-primary">Get Started for Free</a>
+    </section>
+
+    <section id="features" class="features container">
+      <h2>Why QueryPilot?</h2>
+      <div class="feature-list">
+        <div class="feature-item">
+          <h3>Schema-Aware SQL Generation</h3>
+          <p>Upload your database schema or CSV exports and get contextually accurate T-SQL queries instantly.</p>
+        </div>
+        <div class="feature-item">
+          <h3>Simple for Everyone</h3>
+          <p>Non-technical users can easily upload CSV files or use our schema helper popup—no need to learn SQL.</p>
+        </div>
+        <div class="feature-item">
+          <h3>Save & Export Queries</h3>
+          <p>Save your generated queries, export them to SQL files or CSV data exports for easy sharing.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="demo" class="demo container">
+      <h2>Live Demo</h2>
+      <p>Try our free tool now:</p>
+      <a href="https://your-replit-url-here" target="_blank" class="btn-secondary">Open QueryPilot Assistant</a>
+    </section>
+
+    <section id="signup" class="signup container">
+      <h2>Get Started Today</h2>
+      <form id="signupForm" action="https://formspree.io/f/yourformid" method="POST">
+        <input type="email" name="email" placeholder="Your email address" required />
+        <button type="submit" class="btn-primary">Sign Up</button>
+      </form>
+      <p class="privacy-note">We respect your privacy. No spam ever.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-container">
+      <p>© 2025 QueryPilot. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
